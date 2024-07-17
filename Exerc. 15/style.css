@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#spinner{
+    height: 30px;
+    width: 30px;
+    border: 7px solid;
+    border-radius: 50%;
+    border-color: white purple purple purple;
+    animation: rotate 60s linear infinite;
+}
+@keyframes rotate{
+    to{transform: rotate(365deg);}
+}
